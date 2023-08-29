@@ -24,4 +24,9 @@ public class FileWriter
         pw.println(str);
         pw.close();
     }
+
+    public int countCharacters (String fileName) throws IOException
+    {
+        return reader (fileName).length ();
+    }
 }
